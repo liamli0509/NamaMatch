@@ -24,11 +24,11 @@ import os
 
 DataSet1 = pd.read_csv(filename1,encoding='utf-8', sep='\t')
 Name1 = DataSet1['ISSUER_NAME'].tolist()
-Name1 = list(set(ECB_Name))
+Name1 = list(set(Name1))
 
 DataSet2 = pd.read_csv(filename2,encoding='utf-8', sep='\t')
 Name2 = DataSet2['ISSUER_NAME'].tolist()
-Name2 = list(set(ECB_Name))
+Name2 = list(set(Name2))
 
 
 
