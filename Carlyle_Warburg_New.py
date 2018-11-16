@@ -27,8 +27,6 @@ import os
 from unidecode import unidecode
 
 ####################################################################################
-Oracle = cx_Oracle.connect('unidb/fnRjn5LLuuZLAJLQLuQr@amz-p-ora20.dbrs.local:1521/BRAPP')
-os.chdir('U:/Carlyle-Warburg')
 
 
 Cfilename = 'carlyle_20180921.txt'
